@@ -1,3 +1,7 @@
+* {
+    color: purple;
+  }
+
 div {
     color: white;
     background-color: black;
@@ -5,4 +9,17 @@ div {
   
   p {
     color: red;
+  }
+
+
+  .alert-text {
+    color: burlywood;
+  }
+
+  #title {
+    background-color: yellowgreen;
+  }
+
+  .subsection.header {
+    color: yellow;
   }
