@@ -1,34 +1,27 @@
 .main {
   text-align: center;
   background-color: lightskyblue;
+
 }
 
 .flex-container {
   display: flex;
+  height: 400px;
+  width: 1000px;
+  padding: 16px;
+  background: yellow;
+  border: 4px indigo;
+  align-items: center;
 }
-
-/*.flex-container {
-  background: peachpuff;
-  border: 4px solid brown;
-  height: 100px;
-  flex: 1;
-}
-*/
 
 .lasagna {
-
-  height: 100px;
-  flex: 1;
+  flex: 1 1 auto;
 }
 
 .nachocheese {
-
-  height: 100px;
-  flex: 1;
+  flex: 1 1 auto;
 }
 
 .risotto {
-
-  height: 100px;
-  flex: 1;
+  flex: 1 1 auto;
 }
