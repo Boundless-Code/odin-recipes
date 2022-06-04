@@ -1,6 +1,18 @@
+* {
+  box-sizing: border-box;
+  align-items: center;
+}
+
 .main {
+  flex: 1;
   text-align: center;
-  background-color: lightskyblue;
+  background-color: rgb(40, 156, 14);
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
 }
 
@@ -8,9 +20,9 @@
   display: flex;
   height: 400px;
   width: 1000px;
-  padding: 16px;
-  background: yellow;
-  border: 4px indigo;
+  padding: 8px;
+  background: rgb(182, 185, 183);
+  border: 16px rgb(0, 0, 0);
   align-items: center;
 }
 
